@@ -34,13 +34,16 @@ During the scan, `Wireshark` recorded packet activity to capture the scanner's t
 - Distinct source port reuse patterns from `Jawir-Scanner`
 - RST replies showing scanner probe rejection behavior
 
-![Jawir-Scanner Output](image/Screenshot 2026-06-02 002750.png)
+<img src="image/jawir-scanner-output.png" alt="Jawir-Scanner Output" width="700" />
+
 *Jawir-Scanner execution and scan results.*
 
-![Wireshark Traffic Capture](image/Screenshot 2026-06-02 002800.png)
+<img src="image/wireshark-traffic-capture.png" alt="Wireshark Traffic Capture" width="700" />
+
 *Wireshark packet capture overview during SYN scanning.*
 
-![Wireshark Signature Analysis](image/Screenshot 2026-06-02 002804.png)
+<img src="image/wireshark-signature-analysis.png" alt="Wireshark Signature Analysis" width="700" />
+
 *Detailed SYN scan signature analysis in Wireshark.*
 
 ## 4. Key Network Artifacts Left by Scanner
